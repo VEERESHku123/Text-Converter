@@ -5,7 +5,7 @@ function convertToUpper() {
     const upperCaseText = str.toUpperCase(); 
     document.getElementById("result").textContent = `${upperCaseText}`; 
     //change the result heading
-    document.getElementById("text3").innerHTML="The Converted Text to UpperCase:";
+    document.getElementById("text3").innerHTML="Text Converted to UpperCase:";
 }
             
 // Convert to Lowercase
@@ -15,7 +15,7 @@ function convertToLower() {
     document.getElementById("result").textContent = `${lowerCaseText}`;
                 
     //change the result heading
-    document.getElementById("text3").innerHTML="The Converted Text to LowerCase:";
+    document.getElementById("text3").innerHTML="TextConverted to LowerCase:";
 }
             
 // Count Words
@@ -45,7 +45,27 @@ function titleCase() {
     document.getElementById("result").textContent = titleStr; 
 
     //change the result heading
-    document.getElementById("text3").innerHTML="The coverted text to Title Case :";
+    document.getElementById("text3").innerHTML="Text coverted to Title Case :";
+}
+
+// Reverse String
+function reverseString() {
+    const str = document.getElementById("input").value.trim(); 
+    const reverseStr = str.split('').reverse().join('');
+    document.getElementById("result").textContent = reverseStr; 
+
+    //change the result heading
+    document.getElementById("text3").innerHTML="Text coverted to Reverse :";
+}
+
+// Remove space
+function removeSpace() {
+    const str = document.getElementById("input").value.trim(); 
+    const removeSpaceStr = str.trim().replace(/\s+/g, ' ');
+    document.getElementById("result").textContent = removeSpaceStr; 
+
+    //change the result heading
+    document.getElementById("text3").innerHTML="Extra Space Removed Text :";
 }
 
 // Clear
