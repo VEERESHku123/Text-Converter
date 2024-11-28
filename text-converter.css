@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+    display: flex;
+    background-color:brown;
+    margin-top: 0;
+    margin-left: auto;
+    padding: 15px;
+    margin-bottom: 30px;
+    color: white;
+}
+h1{
+    margin: 0;
+}
+#header button{
+    margin-left: 10px;
+    width: 40px;
+    height: 30px;
+    margin-top: 10px;
+    background-color:brown;
+    color: white;
+}
+#header p{
+    margin-left: auto;
+    font-size: 15px;
+}
+#container {
+    display: flex;
+    justify-content:left;
+    align-items: left;
+    margin: 0;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 3px solid #ccc;
+    border-radius: 5px;
+}
+
+#buttons{
+    display: flex;
+    justify-content:left;
+    align-items: left;
+    flex-direction:column;
+    gap: 30px;
+    margin-right: 60px;
+    margin-left: 10px;
+
+}
+#buttons button{
+    background-color: brown;
+    color: white;
+    margin-right: 30px;
+    height: 30px;
+}
+
+#Result{
+    margin-left: 30px;
+}
+   
+#Result p{
+    border: 1px solid black;
+    width: 97%;
+    height: auto;
+    background-color: white;
+}
+
+
+table {
+    width: 100%; 
+    border-collapse: collapse;
+}
+
+th {
+   
+    vertical-align: top; /* Aligns content to the top of the <th> */
+    padding: 10px; /* Adds padding inside the <th> */
+    text-align: left; /* Ensures left alignment of text */
+}
+
+h2 {
+    margin: 0; /* Removes default margin from the <h2> */
+}
+
+textarea {
+    margin-top: 20px; /* Adds spacing between the <h2> and the <textarea> */
+    margin-right: 30px;
+}
